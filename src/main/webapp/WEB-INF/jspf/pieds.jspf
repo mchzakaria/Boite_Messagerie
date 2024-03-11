@@ -1,0 +1,8 @@
+<%@page import="java.util.Date , java.text.DateFormat" %>
+<%!
+    DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.FULL);
+%>
+        <br><br>
+        <h4 align="right"><%= dateFormat.format(new Date()) %></h4>
+    </body>
+</html>
